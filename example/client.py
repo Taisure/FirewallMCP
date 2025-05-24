@@ -6,7 +6,7 @@ __copyright__ = 'Copyright © 2025/05/23, Banyu Tech Ltd.'
 
 from fastmcp import Client
 import asyncio
-client = Client("https://firewall.gcmark.com/sse")
+client = Client("https://mcp.gcmark.com/sse")
 
 async def list_tools():
     async with client:
@@ -25,4 +25,4 @@ async def detect_toxic():
 
 
 if __name__ == "__main__":
-    asyncio.run(detect_toxic())
+    asyncio.run(list_tools())
