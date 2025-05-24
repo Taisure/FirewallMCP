@@ -4,4 +4,4 @@
 __author__ = 'Taisue'
 __copyright__ = 'Copyright © 2025/05/23, Banyu Tech Ltd.'
 
-from .detect_pii import DetectPII
+from .detect_toxic import DetectToxic

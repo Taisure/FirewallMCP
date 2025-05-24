@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+
+__author__ = 'Taisue'
+__copyright__ = 'Copyright © 2025/05/23, Banyu Tech Ltd.'
+
+
 from typing import Any, Callable, Dict, List, Union, cast
 import difflib
 import nltk

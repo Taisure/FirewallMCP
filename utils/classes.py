@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+
+__author__ = 'Taisue'
+__copyright__ = 'Copyright © 2025/05/23, Banyu Tech Ltd.'
+
 from typing import Any, Dict, List, Literal, Optional, Union
 from pydantic import Field
 from guardrails_api_client import (
@@ -6,6 +12,7 @@ from guardrails_api_client import (
     FailResult as IFailResult,
     ErrorSpan as IErrorSpan,
 )
+
 
 class FailResult(ValidationResult, IFailResult):
     """FailResult is the output type of Validator.validate when validation
